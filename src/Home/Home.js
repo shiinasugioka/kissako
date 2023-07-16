@@ -17,7 +17,17 @@ const Quote = () => {
     return (
         <>
             <p>
-                Put text here.
+                Put text abut the quote here.
+            </p>
+        </>
+    );
+};
+
+const Information = () => {
+    return (
+        <>
+            <p>
+                Put text about information here.
             </p>
         </>
     );
@@ -28,6 +38,7 @@ const returnHome = () => {
         <>
             <PageTitle />
             <Quote />
+            <Information />
         </>
     );
 };
