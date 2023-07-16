@@ -10,13 +10,13 @@ const Navbar = () => {
                         <NavLink to="/">ホーム</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/about">About</NavLink>
+                        <NavLink to="/about">サービス</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/services">サービス</NavLink>
+                        <NavLink to="/services">当サロンについて</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/contact">連絡</NavLink>
+                        <NavLink to="/contact">ご予約・お問い合わせ</NavLink>
                     </li>
                 </ul>
             </div>
