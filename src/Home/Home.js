@@ -11,7 +11,7 @@ const PageTitle = () => {
 
 const returnHome = () => {
     return (
-        {PageTitle}
+        <PageTitle />
     );
 };
 

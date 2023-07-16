@@ -2,7 +2,7 @@ import react from 'react';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-import Navbar from './Navbar/Navbar';
+import { NavBar } from './Navbar/Navbar.js';
 import Home from './Home/Home';
 import About from './About/About';
 import Contact from './Contact/Contact';
@@ -12,7 +12,7 @@ import Footer from './Footer/Footer';
 function App() {
   return (
     <Router>
-      <Navbar />
+      <NavBar />
       <Routes>
         <Route exact path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
