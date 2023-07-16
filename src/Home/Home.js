@@ -1,9 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-const Home = () => {
+const PageTitle = () => {
     return (
         <h1>HOME</h1>
     );
 };
 
-export default Home;
+const returnHome = () => {
+    return (
+        {PageTitle}
+    );
+};
+
+export default returnHome;
