@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styles from "./Home.css";
+import styles from "./HomeStyles.jsx";
 
 const PageTitle = () => {
   return (
@@ -13,10 +13,12 @@ const PageTitle = () => {
 // これをコピーして、Quote は内容に応じて書きかえる
 const Quote = () => {
   return (
-    <>
-      <p>踏まれたこと、</p>
-      <p>ありますか？</p>
-    </>
+    <div style={styles.quoteContainer}>
+      <div style={{ ...styles.quoteText, ...{ fontFamily: "Noto Serif JP" } }}>
+        <p>踏まれたこと、</p>
+        <p>ありますか？</p>
+      </div>
+    </div>
   );
 };
 
@@ -31,7 +33,6 @@ const Information = () => {
 const returnHome = () => {
   return (
     <>
-      <PageTitle />
       <Quote />
       <Information />
     </>

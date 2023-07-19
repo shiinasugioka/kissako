@@ -2,28 +2,42 @@ const styles = {
   navbar: {
     display: "flex",
     justifyContent: "space-between",
-    background: "#F7A18F",
+    background: "#EE836C",
+  },
+  logoContainer: {
+    paddingLeft: "20px",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
   },
   navbarLogo: {
     textDecoration: "none",
-    color: "#333",
+    color: "#FFF",
+    height: "30px",
+  },
+  groupContainer: {
+    padding: 'none',
+    paddingRight: "40px",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
   },
   navbarGroup: {
     listStyle: "none",
     display: "flex",
-    gap: "30px",
-    paddingTop: "11px",
+    flexDirection: "row",
+    padding: '0px',
   },
   navbarItem: {
     textDecoration: "none",
-    color: "#333",
     fontSize: "16px",
     fontWeight: "normal",
-    marginRight: "20px",
+    paddingRight: "20px",
+    paddingLeft: "20px",
   },
   navbarLink: {
     textDecoration: "none",
-    color: "black",
+    color: "#FFF",
   },
 };
 
